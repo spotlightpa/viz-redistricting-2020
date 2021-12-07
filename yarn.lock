@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@alpinejs/morph@^3.7.0":
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/@alpinejs/morph/-/morph-3.7.0.tgz#8a82393379ccafebdff39f6b80043b87215c8fea"
+  integrity sha512-WI6YmLEGMviFvgJC1fv/Kfnn+6MUtyo48y6pV2yjLK8HAqFNo6FTDYhJ8ZoVviaoqJY4FP59Ymw9CV79PwbxEQ==
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.16.0":
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.16.0.tgz#0dfc80309beec8411e65e706461c408b0bb9b431"

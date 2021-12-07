@@ -1,8 +1,10 @@
 import Alpine from "alpinejs/src/index.js";
+import morph from '@alpinejs/morph'
 
 import { initFrameAndPoll } from "@newswire/frames";
 
 import { onLoad } from "./utils/dom-utils.js";
+import {htmlStr, urlStr} from "./utils/template-literals.js"
 import { addGAListeners } from "./utils/google-analytics.js";
 
 import * as L from "leaflet";
@@ -25,17 +27,19 @@ const locate = () =>
     navigator.geolocation.getCurrentPosition(resolve, reject)
   );
 
+Alpine.plugin(morph)
+
+Alpine.magic('html', ()=> htmlStr)
+
 Alpine.directive(
   "template",
   (el, { expression }, { effect, evaluateLater }) => {
-    let evalStr = expression
-      ? "`" + expression + "`"
-      : "`" + el.innerText.trim() + "`";
+    let evalStr = "$html`" + el.outerHTML.trim() + "`";
     let evaluate = evaluateLater(evalStr);
 
     effect(() => {
-      evaluate((value) => {
-        el.innerText = value;
+      evaluate(async (value) => {
+        await Alpine.morph(el, value)
       });
     });
   }
@@ -67,12 +71,7 @@ Alpine.store("state", {
     this.lat = lat;
     this.long = long;
 
-    return this.callAPI(
-      "/api/by-location?lat=" +
-        encodeURIComponent(this.lat) +
-        "&long=" +
-        encodeURIComponent(this.long)
-    );
+    return this.callAPI(urlStr`/api/by-location?lat=${this.lat}&long=${this.long}`);
   },
 
   async callAPI(path) {

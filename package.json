@@ -15,6 +15,7 @@
     "test:prettier": "prettier --ignore-path .gitignore --check **/*.{css,js,yml}"
   },
   "dependencies": {
+    "@alpinejs/morph": "^3.7.0",
     "@babel/core": ">=7.16.0",
     "@babel/eslint-parser": "^7.16.3",
     "@babel/preset-env": "^7.16.4",
