@@ -106,7 +106,7 @@ func (app *appEnv) initSentry(dsn string) error {
 	}
 	return sentry.Init(sentry.ClientOptions{
 		Dsn:       dsn,
-		Release:   build.Rev,
+		Release:   versioninfo.Short(),
 		Transport: transport,
 	})
 }
