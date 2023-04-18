@@ -49,9 +49,8 @@ func (app *appEnv) ParseArgs(args []string) error {
 	fl.IntVar(&app.port, "port", -1, "specify a port to use http rather than AWS Lambda")
 	sentryDSN := fl.String("sentry-dsn", "", "DSN `pseudo-URL` for Sentry")
 
-	app.googleMaps = NewMapsClient()
 	fl.Func("api-key", "Google Maps API `key`", func(s string) error {
-		app.googleMaps.Param("key", s)
+		app.googleMaps = NewMapsClient(s)
 		return nil
 	})
 
@@ -69,7 +68,7 @@ func (app *appEnv) ParseArgs(args []string) error {
 
 type appEnv struct {
 	port       int
-	googleMaps *requests.Builder
+	googleMaps requests.Config
 }
 
 func (app *appEnv) Exec() (err error) {
