@@ -178,54 +178,116 @@
               <div class="mx-auto mt-2 grid gap-4 sm:grid-cols-2">
                 {{ $cardClass := `rounded border border-g-5 p-3` }}
                 {{ $hedClass := `mt-2 uppercase font-semibold text-g-7` }}
+
+
                 <div class="{{ $cardClass }}">
-                  <h3 class="{{ $hedClass }}">Governor</h3>
+                  <h3 class="{{ $hedClass }}">Justice of the Supreme Court</h3>
                   <ul>
-                    <template
-                      x-for="candidate of shuffled('governor')"
-                      key="name"
-                    >
-                      {{ block "candidate" . }}
-                        <li class="">
-                          <span
-                            :style="{ backgroundColor: $partyColor(candidate.party)}"
-                            class="mb-px inline-block h-3 w-3 rounded-full"
-                          ></span>
-                          <span
-                            class="font-bold"
-                            x-text="candidate.name"
-                          ></span>
-                          (<span x-text="$party(candidate.party)"></span>)
-                        </li>
-                      {{ end }}
-                    </template>
+                    <li>
+                      <span
+                        style=" background: rgb(0, 0, 255)"
+                        class="mb-px inline-block h-3 w-3 rounded-full"
+                      ></span>
+                      <span class="font-bold">Debbie Kunselman</span>
+                      <span>(Democrat)</span>
+                    </li>
+                    <li>
+                      <span
+                        style=" background: rgb(0, 0, 255)"
+                        class="mb-px inline-block h-3 w-3 rounded-full"
+                      ></span>
+                      <span class="font-bold">Daniel McCaffery</span>
+                      <span>(Democrat)</span>
+                    </li>
                   </ul>
                 </div>
+
                 <div class="{{ $cardClass }}">
-                  <h3 class="{{ $hedClass }}">US Senate</h3>
+                  <h3 class="{{ $hedClass }}">Judge of the Superior Court</h3>
                   <ul>
-                    <template
-                      x-for="candidate of shuffled('us_senate')"
-                      key="name"
-                    >
-                      {{ template "candidate" . }}
-                    </template>
+                    <li>
+                      <span
+                        style=" background: rgb(255, 0, 0)"
+                        class="mb-px inline-block h-3 w-3 rounded-full"
+                      ></span>
+                      <span class="font-bold">Maria Battista</span>
+                      <span>(Republican)</span>
+                    </li>
+                    <li>
+                      <span
+                        style=" background: rgb(0, 0, 255)"
+                        class="mb-px inline-block h-3 w-3 rounded-full"
+                      ></span>
+                      <span class="font-bold">Jill Beck</span>
+                      <span>(Democrat)</span>
+                    </li>
+                    <li>
+                      <span
+                        style=" background: rgb(0, 0, 255)"
+                        class="mb-px inline-block h-3 w-3 rounded-full"
+                      ></span>
+                      <span class="font-bold">Pat Dugan</span>
+                      <span>(Democrat)</span>
+                    </li>
+                    <li>
+                      <span
+                        style=" background: rgb(0, 0, 255)"
+                        class="mb-px inline-block h-3 w-3 rounded-full"
+                      ></span>
+                      <span class="font-bold">Timika Lane</span>
+                      <span>(Democrat)</span>
+                    </li>
+                    <li>
+                      <span
+                        style=" background: rgb(255, 0, 0)"
+                        class="mb-px inline-block h-3 w-3 rounded-full"
+                      ></span>
+                      <span class="font-bold">Harry F. Smail Jr.</span>
+                      <span>(Republican)</span>
+                    </li>
                   </ul>
                 </div>
+
                 <div class="{{ $cardClass }}">
                   <h3 class="{{ $hedClass }}">
-                    US House, District
-                    <span x-text="lookup('new_congress')"></span>
+                    Judge of the Commonwealth Court
                   </h3>
                   <ul>
-                    <template
-                      x-for="candidate of shuffled('us_house')"
-                      key="name"
-                    >
-                      {{ template "candidate" . }}
-                    </template>
+                    <li>
+                      <span
+                        style=" background: rgb(255, 0, 0)"
+                        class="mb-px inline-block h-3 w-3 rounded-full"
+                      ></span>
+                      <span class="font-bold">Megan Martin</span>
+                      <span>(Republican)</span>
+                    </li>
+                    <li>
+                      <span
+                        style=" background: rgb(0, 0, 255)"
+                        class="mb-px inline-block h-3 w-3 rounded-full"
+                      ></span>
+                      <span class="font-bold">Bryan Neft</span>
+                      <span>(Democrat)</span>
+                    </li>
+                    <li>
+                      <span
+                        style=" background: rgb(255, 0, 0)"
+                        class="mb-px inline-block h-3 w-3 rounded-full"
+                      ></span>
+                      <span class="font-bold">Josh Prince</span>
+                      <span>(Republican)</span>
+                    </li>
+                    <li>
+                      <span
+                        style=" background: rgb(0, 0, 255)"
+                        class="mb-px inline-block h-3 w-3 rounded-full"
+                      ></span>
+                      <span class="font-bold">Matt Wolf</span>
+                      <span>(Democrat)</span>
+                    </li>
                   </ul>
                 </div>
+
                 <div class="{{ $cardClass }}">
                   <h3 class="{{ $hedClass }}">
                     State House, District
@@ -236,43 +298,39 @@
                       x-for="candidate of shuffled('state_house')"
                       key="name"
                     >
-                      {{ template "candidate" . }}
-                    </template>
-                  </ul>
-                </div>
-                <div class="{{ $cardClass }}">
-                  <h3 class="{{ $hedClass }}">
-                    State Senate, District
-                    <span x-text="lookup('new_senate')"></span>
-                  </h3>
-                  <ul>
-                    <template
-                      x-for="candidate of shuffled('state_senate')"
-                      key="name"
-                    >
-                      {{ template "candidate" . }}
+                      <li>
+                        <span
+                          :style="{ backgroundColor: $partyColor(candidate.party)}"
+                          class="mb-px inline-block h-3 w-3 rounded-full"
+                        ></span>
+                        <span class="font-bold" x-text="candidate.name"></span>
+                        (<span x-text="$party(candidate.party)"></span>)
+                      </li>
                     </template>
                   </ul>
                   <p
                     class="italic"
-                    x-text="lookup('state_senate').length? '': 'Not up for re-election this cycle.'"
+                    x-text="lookup('state_house').length? '': 'This district is not conducting a special election in 2023.'"
                   ></p>
                 </div>
               </div>
+
               <div class="content-area mt-2">
                 <p class="">
-                  This sample ballot does not show local ballot initiatives or
-                  special elections, including those for
+                  Please note: This sample ballot is not comprehensive. It does
+                  not include races for magisterial district judges outside of
+                  Philadelphia nor does it include any municipal races for
+                  mayor, school board, and other contests. This information is
+                  not maintained in a centralized way, meaning Spotlight PA must
+                  reach out to all 67 counties to obtain it. Spotlight PA is
+                  working to update its sample ballot with more information. We
+                  recommend reaching out to your
                   <a
                     target="_blank"
-                    href="https://vote.phila.gov/news/2022/09/16/general-and-special-election/"
-                    >Philadelphia City Council</a
-                  >. Check with your
-                  <a
-                    target="_blank"
-                    href="https://www.vote.pa.gov/Resources/Pages/Contact-Your-Election-Officials.aspx"
+                    href="https://www.vote.pa.gov/resources/pages/contact-your-election-officials.aspx"
                     >county election office</a
-                  >.
+                  >
+                  for more information.
                 </p>
               </div>
             </div>
