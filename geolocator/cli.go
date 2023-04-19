@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/carlmjohnson/flagext"
+	"github.com/carlmjohnson/flagx"
 	"github.com/carlmjohnson/gateway"
 	"github.com/carlmjohnson/requests"
 	"github.com/carlmjohnson/versioninfo"
@@ -57,10 +57,13 @@ func (app *appEnv) ParseArgs(args []string) error {
 	if err := fl.Parse(args); err != nil {
 		return err
 	}
-	if err := flagext.ParseEnv(fl, App); err != nil {
+	if err := flagx.ParseEnv(fl, App); err != nil {
 		return err
 	}
 	if err := app.initSentry(*sentryDSN); err != nil {
+		return err
+	}
+	if err := flagx.MustHave(fl, "api-key"); err != nil {
 		return err
 	}
 	return nil

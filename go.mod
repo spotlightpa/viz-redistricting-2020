@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/carlmjohnson/csv v1.20.0
 	github.com/carlmjohnson/exitcode v0.20.2
-	github.com/carlmjohnson/flagext v0.22.1
+	github.com/carlmjohnson/flagx v0.22.2
 	github.com/carlmjohnson/gateway v1.22.2
 	github.com/carlmjohnson/requests v0.23.3
 	github.com/carlmjohnson/resperr v0.22.0

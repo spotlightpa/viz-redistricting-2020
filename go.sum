@@ -5,8 +5,8 @@ github.com/carlmjohnson/csv v1.20.0 h1:/QBKcZdJY0FMerK6m+uMgZRwmQ33Uj5NBqkqcitst
 github.com/carlmjohnson/csv v1.20.0/go.mod h1:I2Bsj5YPd8aGaLfXelcf4ANJpFlrPYkgpJnwCsTdNbI=
 github.com/carlmjohnson/exitcode v0.20.2 h1:vE6rmkCGNA4kO4m1qwWIa77PKlUBVg46cNjs22eAOXE=
 github.com/carlmjohnson/exitcode v0.20.2/go.mod h1:MZ6ThCDx517DQcrpYnnns1pLh8onjFl+B/AsrOrdmpc=
-github.com/carlmjohnson/flagext v0.22.1 h1:EdIj8NCAOZKikL1Ux55oc3JUJeeAUrsC+A2OaUCdVL0=
-github.com/carlmjohnson/flagext v0.22.1/go.mod h1:SKojRbVQTvw04RKgb+4Y1mSlAPFC3p76pUNXGUaJZuQ=
+github.com/carlmjohnson/flagx v0.22.2 h1:UXf7gL4Ffv5RIH/HKp8CGNzDyopgezFLrDO1m4F8jWc=
+github.com/carlmjohnson/flagx v0.22.2/go.mod h1:obobISvBnxgEXPLBITVXhRUOlSlzza1SGt34M64CPJc=
 github.com/carlmjohnson/gateway v1.22.2 h1:Nr7JVUSruWG3I6PGGxUTaIGLHSEhCcoppFX0zGxha80=
 github.com/carlmjohnson/gateway v1.22.2/go.mod h1:C2xSaIo4kkvdbTQQI5EhmzzWC1wB/+f5COhlpQ4O8fA=
 github.com/carlmjohnson/requests v0.23.3 h1:22EEJsJqjNWprjQtqw2nLoQ1Sz+I1qJUbvhd0cHSHUg=
