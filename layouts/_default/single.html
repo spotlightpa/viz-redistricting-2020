@@ -164,30 +164,32 @@
           </form>
           <div x-data="{ party: 'none' }">
             <div
-              class="mx-auto mt-2 sm:flex md:max-w-lg align-baseline text-xl font-bold text-g-7"
+              class="mx-auto mt-2 align-baseline text-xl font-bold text-g-7 sm:flex md:max-w-lg"
             >
-              <span class="w-full sm:w-auto block sm:inline-flex">Choose a party:</span>
-              <label class="ml-2 block md:flex-1 md:inline-flex items-center"
+              <span class="block w-full sm:inline-flex sm:w-auto"
+                >Choose a party:</span
+              >
+              <label class="ml-2 block items-center md:inline-flex md:flex-1"
                 ><input
-                  class="h-5 w-5 mr-1"
+                  class="mr-1 h-5 w-5"
                   type="radio"
                   value="R"
                   x-model="party"
                 />
                 Republican</label
               >
-              <label class="ml-2 block md:flex-1 md:inline-flex items-center"
+              <label class="ml-2 block items-center md:inline-flex md:flex-1"
                 ><input
-                  class="h-5 w-5 mr-1"
+                  class="mr-1 h-5 w-5"
                   type="radio"
                   value="D"
                   x-model="party"
                 />
                 Democrat</label
               >
-              <label class="ml-2 block md:flex-1 md:inline-flex items-center"
+              <label class="ml-2 block items-center md:inline-flex md:flex-1"
                 ><input
-                  class="h-5 w-5 mr-1"
+                  class="mr-1 h-5 w-5"
                   type="radio"
                   value="none"
                   x-model="party"
