@@ -219,6 +219,7 @@
                     <h3 class="{{ $hedClass }}">
                       Justice of the Supreme Court
                     </h3>
+                    <p><em>Vote for one.</em></p>
                     <div x-show="party === 'D'">
                       <h4 class="mt-2 font-semibold uppercase text-g-9">
                         Democratic Party Candidates
@@ -263,13 +264,18 @@
                     </div>
                     <div x-show="party === 'none'">
                       <h4 class="mt-2 font-semibold uppercase text-g-9">
-                        No other party information available.
+                        Independents and third-party voters cannot participate in this 
+                        primary race. <a class="underline text-blue"
+                          href="https://www.spotlightpa.org/news/2023/04/pa-primary-election-2023-indepedents-third-party/"
+                          target="_blank"
+                        >Read more.</a>
                       </h4>
                     </div>
                   </div>
 
                   <div class="{{ $cardClass }}">
                     <h3 class="{{ $hedClass }}">Judge of the Superior Court</h3>
+                    <p><em>Vote for not more than two.</em></p>
                     <div x-show="party === 'D'">
                       <h4 class="mt-2 font-semibold uppercase text-g-9">
                         Democratic Party Candidates
@@ -321,7 +327,11 @@
                     </div>
                     <div x-show="party === 'none'">
                       <h4 class="mt-2 font-semibold uppercase text-g-9">
-                        No other party information available.
+                        Independents and third-party voters cannot participate in this 
+                        primary race. <a class="underline text-blue"
+                          href="https://www.spotlightpa.org/news/2023/04/pa-primary-election-2023-indepedents-third-party/"
+                          target="_blank"
+                        >Read more.</a>
                       </h4>
                     </div>
                   </div>
@@ -330,6 +340,7 @@
                     <h3 class="{{ $hedClass }}">
                       Judge of the Commonwealth Court
                     </h3>
+                    <p><em>Vote for one.</em></p>
                     <div x-show="party === 'D'">
                       <h4 class="mt-2 font-semibold uppercase text-g-9">
                         Democratic Party Candidates
@@ -374,7 +385,11 @@
                     </div>
                     <div x-show="party === 'none'">
                       <h4 class="mt-2 font-semibold uppercase text-g-9">
-                        No other party information available.
+                        Independents and third-party voters cannot participate in this 
+                        primary race. <a class="underline text-blue"
+                          href="https://www.spotlightpa.org/news/2023/04/pa-primary-election-2023-indepedents-third-party/"
+                          target="_blank"
+                        >Read more.</a>
                       </h4>
                     </div>
                   </div>
@@ -408,7 +423,7 @@
                       </ul>
                       <p
                         class="italic"
-                        x-text="lookup('state_house').length? '': 'This district is not conducting a special election in 2023.'"
+                        x-text="lookup('state_house').length? '': 'This district is not conducting a special election in May 2023.'"
                       ></p>
                     </div>
                   </div>
@@ -416,14 +431,13 @@
 
                 <div class="content-area mt-2">
                   <p class="">
-                    Please note: This sample ballot is not comprehensive. It
-                    does not include races for magisterial district judges
-                    outside of Philadelphia nor does it include any municipal
-                    races for mayor, school board, and other contests. This
-                    information is not maintained in a centralized way, meaning
-                    Spotlight PA must reach out to all 67 counties to obtain it.
-                    Spotlight PA is working to update its sample ballot with
-                    more information. We recommend reaching out to your
+                    Please note: This sample ballot is not comprehensive. It does not include 
+                    races for Common Pleas or magisterial district judges nor does it include 
+                    any municipal races for mayor, school board, and other contests. This 
+                    information is not maintained in a centralized way, meaning Spotlight PA 
+                    must reach out to all 67 counties to obtain it. Spotlight PA is working to 
+                    update its sample ballot with more information. We recommend reaching out 
+                    to your
                     <a
                       target="_blank"
                       href="https://www.vote.pa.gov/resources/pages/contact-your-election-officials.aspx"
