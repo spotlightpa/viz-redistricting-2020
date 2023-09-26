@@ -1,5 +1,5 @@
 {
-  "judgeCommonwealthCourt": {
+  "Judge of the Commonwealth Court": {
     "": [
       {
         "party": "DEM",
@@ -15,7 +15,7 @@
       }
     ]
   },
-  "judgeSuperiorCourt": {
+  "Judge of the Superior Court": {
     "": [
       {
         "party": "DEM",
@@ -55,7 +55,7 @@
       }
     ]
   },
-  "justiceSupremeCourt": {
+  "Justice of the Supreme Court": {
     "": [
       {
         "party": "DEM",
@@ -71,7 +71,7 @@
       }
     ]
   },
-  "judgeCourtCommonPleas": {
+  "Judge of the Court Common Pleas": {
     "1": [
       {
         "party": "DEM",
