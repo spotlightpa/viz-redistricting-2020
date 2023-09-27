@@ -11,11 +11,10 @@ type Candidate struct {
 }
 
 var (
-	CanGov      []Candidate
-	CanUSSenate []Candidate
-	CanUSHouse  map[string][]Candidate
-	CanPAHouse  map[string][]Candidate
-	CanPASenate map[string][]Candidate
+	CanCommonPleas       map[string][]Candidate
+	CanCommonwealthCourt map[string][]Candidate
+	CanSuperiorCourt     map[string][]Candidate
+	CanSupremeCourt      []Candidate
 )
 
 //go:embed embeds/candidates.json
@@ -27,9 +26,8 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
-	CanGov = candidates["Governor"][""]
-	CanUSSenate = candidates["US Senate"][""]
-	CanUSHouse = candidates["US House"]
-	CanPAHouse = candidates["State House"]
-	CanPASenate = candidates["State Senate"]
+	CanCommonwealthCourt = candidates["Judge of the Commonwealth Court"]
+	CanCommonPleas = candidates["Judge of the Court Common Pleas"]
+	CanSuperiorCourt = candidates["Judge of the Superior Court"]
+	CanSupremeCourt = candidates["Justice of the Supreme Court"][""]
 }
