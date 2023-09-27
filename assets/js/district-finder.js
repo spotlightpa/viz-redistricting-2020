@@ -31,16 +31,18 @@ Alpine.magic("party", () => (short) => {
 });
 
 Alpine.magic("partyColor", () => (short) => {
-  return {
-    DEM: "#0000ff",
-    FOV: "orange",
-    GRN: "forestgreen",
-    IND: "#ccc",
-    KEY: "rebeccapurple",
-    LIB: "goldenrod",
-    REP: "#ff0000",
-    SWP: "black",
-  }[short];
+  return (
+    {
+      DEM: "#0000ff",
+      FOV: "orange",
+      GRN: "forestgreen",
+      IND: "#ccc",
+      KEY: "rebeccapurple",
+      LIB: "goldenrod",
+      REP: "#ff0000",
+      SWP: "black",
+    }[short] || "#ccc"
+  );
 });
 
 const locate = () =>
