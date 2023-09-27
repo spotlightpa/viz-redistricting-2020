@@ -218,7 +218,7 @@
                   </h3>
                   <ul>
                     <template
-                      x-for="candidate of shuffled('judgeCommonwealthCourt')"
+                      x-for="candidate of shuffled('CommonwealthCourt')"
                       key="name"
                     >
                       {{ template "candidate" . }}
@@ -229,7 +229,7 @@
                 <div class="{{ $cardClass }}">
                   <h3 class="{{ $hedClass }}">
                     Judge of the Court of Common Pleas, District
-                    <span x-text="lookup('new_senate')"></span>
+                    <span x-text="lookup('counties')"></span>
                   </h3>
                   <ul>
                     <template

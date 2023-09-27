@@ -219,20 +219,22 @@ func (app *appEnv) getCandidatesByAddress(w http.ResponseWriter, r *http.Request
 
 type CandidateInfo struct {
 	LocationInfo
-	Governor    []Candidate `json:"governor"`
-	USSenate    []Candidate `json:"us_senate"`
-	USHouse     []Candidate `json:"us_house"`
-	StateSenate []Candidate `json:"state_senate"`
-	StateHouse  []Candidate `json:"state_house"`
+	Governor          []Candidate `json:"governor"`
+	USSenate          []Candidate `json:"us_senate"`
+	USHouse           []Candidate `json:"us_house"`
+	StateSenate       []Candidate `json:"state_senate"`
+	StateHouse        []Candidate `json:"state_house"`
+	CommonwealthCourt []Candidate `json:"judgeCommonwealthCourt"`
 }
 
 func NewCandiateInfo(loc LocationInfo) CandidateInfo {
 	return CandidateInfo{
-		LocationInfo: loc,
-		Governor:     CanGov,
-		USSenate:     CanUSSenate,
-		USHouse:      CanUSHouse[loc.NewCongress],
-		StateSenate:  CanPASenate[loc.NewSenate],
-		StateHouse:   CanPAHouse[loc.NewHouse],
+		LocationInfo:      loc,
+		Governor:          CanGov,
+		USSenate:          CanUSSenate,
+		USHouse:           CanUSHouse[loc.NewCongress],
+		StateSenate:       CanPASenate[loc.NewSenate],
+		StateHouse:        CanPAHouse[loc.NewHouse],
+		CommonwealthCourt: CanCommonwealthCourt[loc.County],
 	}
 }
