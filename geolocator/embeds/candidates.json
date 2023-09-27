@@ -1,938 +1,952 @@
 {
   "Judge of the Commonwealth Court": {
-    "": [
+    "Cumberland": [
       {
-        "party": "DEM",
-        "name": "MATT WOLF",
+        "County": "CUMBERLAND",
+        "Municipality": "SILVER SPRING",
+        "name": "MEGAN MARTIN",
+        "party": "REP"
+      }
+    ],
+    "Philadelphia": [
+      {
+        "County": "PHILADELPHIA",
         "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
+        "name": "MATT WOLF",
+        "party": "DEM"
+      }
+    ]
+  },
+  "Judge of the Court Common Pleas": {
+    "Allegheny": [
+      {
+        "County": "ALLEGHENY",
+        "Municipality": "PITTSBURGH",
+        "district_judicial": 5,
+        "name": "PATRICK A SWEENEY",
+        "party": "DEM"
       },
       {
-        "party": "REP",
-        "name": "MEGAN MARTIN",
-        "Municipality": "SILVER SPRING",
-        "County": "CUMBERLAND"
+        "County": "ALLEGHENY",
+        "Municipality": "MT LEBANON",
+        "district_judicial": 5,
+        "name": "ANTHONY DELUCA",
+        "party": "REP"
+      },
+      {
+        "County": "ALLEGHENY",
+        "Municipality": "PITTSBURGH",
+        "district_judicial": 5,
+        "name": "ELEANOR L BUSH",
+        "party": ""
+      },
+      {
+        "County": "ALLEGHENY",
+        "Municipality": "BALDWIN TWP",
+        "district_judicial": 5,
+        "name": "PAUL E COZZA",
+        "party": ""
+      },
+      {
+        "County": "ALLEGHENY",
+        "Municipality": "PITTSBURGH",
+        "district_judicial": 5,
+        "name": "LAWRENCE JOSEPH O'TOOLE",
+        "party": ""
+      },
+      {
+        "County": "ALLEGHENY",
+        "Municipality": "INDIANA TWP",
+        "district_judicial": 5,
+        "name": "JILL E RANGOS",
+        "party": ""
+      },
+      {
+        "County": "ALLEGHENY",
+        "Municipality": "ROSSLYN FARMS BORO",
+        "district_judicial": 5,
+        "name": "JENNIFER SATLER",
+        "party": ""
+      },
+      {
+        "County": "ALLEGHENY",
+        "Municipality": "PGH 7TH WARD",
+        "district_judicial": 5,
+        "name": "CHRISTINE WARD",
+        "party": ""
+      }
+    ],
+    "Beaver": [
+      {
+        "County": "BEAVER",
+        "Municipality": "PATTERSON TWP",
+        "district_judicial": 36,
+        "name": "RICHARD MANCINI",
+        "party": ""
+      },
+      {
+        "County": "BEAVER",
+        "Municipality": "ECONOMY BORO",
+        "district_judicial": 36,
+        "name": "JAMES J ROSS",
+        "party": ""
+      }
+    ],
+    "Berks": [
+      {
+        "County": "BERKS",
+        "Municipality": "WYOMISSING",
+        "district_judicial": 23,
+        "name": "JILL SCHEIDT",
+        "party": "D/R"
+      },
+      {
+        "County": "BERKS",
+        "Municipality": "OLEY TOWNSHIP",
+        "district_judicial": 23,
+        "name": "JUSTIN D BODOR",
+        "party": "D/R"
+      },
+      {
+        "County": "BERKS",
+        "Municipality": "BRECKNOCK TWP",
+        "district_judicial": 23,
+        "name": "THERESA JOHNSON",
+        "party": ""
+      },
+      {
+        "County": "BERKS",
+        "Municipality": "CUMRU TWP",
+        "district_judicial": 23,
+        "name": "MADELYN S FUDEMAN",
+        "party": ""
+      }
+    ],
+    "Blair": [
+      {
+        "County": "BLAIR",
+        "Municipality": "FRANKSTOWN TOWNSHIP",
+        "district_judicial": 24,
+        "name": "DAVID CONSIGLIO",
+        "party": "D/R"
+      },
+      {
+        "County": "BLAIR",
+        "Municipality": "TYRONE TOWNSHIP",
+        "district_judicial": 24,
+        "name": "FRED B MILLER",
+        "party": "D/R"
+      },
+      {
+        "County": "BLAIR",
+        "Municipality": "BORO OF HOLLIDAYSBURG",
+        "district_judicial": 24,
+        "name": "WADE A KAGARISE",
+        "party": ""
+      },
+      {
+        "County": "BLAIR",
+        "Municipality": "FRANKSTOWN TWP",
+        "district_judicial": 24,
+        "name": "ELIZABETH A DOYLE",
+        "party": ""
+      }
+    ],
+    "Bucks": [
+      {
+        "County": "BUCKS",
+        "Municipality": "",
+        "district_judicial": 7,
+        "name": "MATT WEINTRAUB",
+        "party": "D/R"
+      },
+      {
+        "County": "BUCKS",
+        "Municipality": "DOYLESTOWN BORO",
+        "district_judicial": 7,
+        "name": "C THEODORE FRITSCH JR",
+        "party": ""
+      }
+    ],
+    "Butler": [
+      {
+        "County": "BUTLER",
+        "Municipality": "ADAMS TOWNSHIP",
+        "district_judicial": 50,
+        "name": "MAURA PALUMBI",
+        "party": "D/R"
+      }
+    ],
+    "Cambria": [
+      {
+        "County": "CAMBRIA",
+        "Municipality": "CAMBRIA TOWNSHIP",
+        "district_judicial": 47,
+        "name": "TIM SLOAN",
+        "party": "DEM"
+      },
+      {
+        "County": "CAMBRIA",
+        "Municipality": "RICHLAND TOWNSHIP",
+        "district_judicial": 47,
+        "name": "MICHAEL CARBONARA",
+        "party": "D/R"
+      },
+      {
+        "County": "CAMBRIA",
+        "Municipality": "RICHLAND TOWNSHIP",
+        "district_judicial": 47,
+        "name": "FORREST B FORDHAM",
+        "party": "REP"
+      }
+    ],
+    "Centre": [
+      {
+        "County": "CENTRE",
+        "Municipality": "PATTON TOWNSHIP",
+        "district_judicial": 49,
+        "name": "JULIA RATER",
+        "party": "D/R"
+      }
+    ],
+    "Chester": [
+      {
+        "County": "CHESTER",
+        "Municipality": "WEST CHESTER BOROUGH",
+        "district_judicial": 15,
+        "name": "SARAH B  BLACK",
+        "party": "DEM"
+      },
+      {
+        "County": "CHESTER",
+        "Municipality": "BIRMINGHAM TOWNSHIP",
+        "district_judicial": 15,
+        "name": "DEB RYAN",
+        "party": "DEM"
+      },
+      {
+        "County": "CHESTER",
+        "Municipality": "EAST GOSHEN",
+        "district_judicial": 15,
+        "name": "FREDDA D MADDOX",
+        "party": "DEM"
+      },
+      {
+        "County": "CHESTER",
+        "Municipality": "EASTTOWN TOWNSHIP",
+        "district_judicial": 15,
+        "name": "NICOLE FORZATO",
+        "party": "DEM"
+      },
+      {
+        "County": "CHESTER",
+        "Municipality": "NEWLIN TOWNSHIP",
+        "district_judicial": 15,
+        "name": "THOMAS MCCABE",
+        "party": "DEM"
+      },
+      {
+        "County": "CHESTER",
+        "Municipality": "EAST BRANDYWINE TOWNSHIP",
+        "district_judicial": 15,
+        "name": "LOU MINCARELLI",
+        "party": "REP"
+      },
+      {
+        "County": "CHESTER",
+        "Municipality": "WEST GOSHEN",
+        "district_judicial": 15,
+        "name": "PJ REDMOND",
+        "party": "REP"
+      },
+      {
+        "County": "CHESTER",
+        "Municipality": "WEST GOSHEN TOWNSHIP",
+        "district_judicial": 15,
+        "name": "ANDY RONGAUS",
+        "party": "REP"
+      },
+      {
+        "County": "CHESTER",
+        "Municipality": "NEW GARDEN TOWNSHIP",
+        "district_judicial": 15,
+        "name": "DON KOHLER",
+        "party": "REP"
+      },
+      {
+        "County": "CHESTER",
+        "Municipality": "THORNBURY TOWNSHIP",
+        "district_judicial": 15,
+        "name": "DAVE BLACK",
+        "party": "REP"
+      },
+      {
+        "County": "CHESTER",
+        "Municipality": "WESTTOWN",
+        "district_judicial": 15,
+        "name": "PATRICK CARMODY",
+        "party": ""
+      },
+      {
+        "County": "CHESTER",
+        "Municipality": "EAST BRADFORD TWP",
+        "district_judicial": 15,
+        "name": "JOHN L HALL",
+        "party": ""
+      }
+    ],
+    "Clearfield": [
+      {
+        "County": "CLEARFIELD",
+        "Municipality": "DUBOIS",
+        "district_judicial": 46,
+        "name": "PAUL E CHERRY",
+        "party": ""
+      }
+    ],
+    "Clinton": [
+      {
+        "County": "CLINTON",
+        "Municipality": "PIKE CREEK TWP 2",
+        "district_judicial": 25,
+        "name": "MICHAEL F SALISBURY",
+        "party": ""
+      }
+    ],
+    "Columbia": [
+      {
+        "County": "COLUMBIA",
+        "Municipality": "BRIAR CREEK TOWNSHIP",
+        "district_judicial": 26,
+        "name": "RICHARD W KNECHT",
+        "party": "D/R"
+      }
+    ],
+    "Dauphin": [
+      {
+        "County": "DAUPHIN",
+        "Municipality": "SUSQUEHANNA TOWNSHIP",
+        "district_judicial": 12,
+        "name": "LA TASHA C WILLIAMS",
+        "party": "DEM"
+      },
+      {
+        "County": "DAUPHIN",
+        "Municipality": "LOWER PAXTON TOWNSHIP",
+        "district_judicial": 12,
+        "name": "COURTNEY K POWELL",
+        "party": "REP"
+      },
+      {
+        "County": "DAUPHIN",
+        "Municipality": "WEST HANOVER",
+        "district_judicial": 12,
+        "name": "SCOTT ARTHUR EVANS",
+        "party": ""
+      },
+      {
+        "County": "DAUPHIN",
+        "Municipality": "LOWER PAXTON TWP",
+        "district_judicial": 12,
+        "name": "WILLIAM T TULLY",
+        "party": ""
+      }
+    ],
+    "Delaware": [
+      {
+        "County": "DELAWARE",
+        "Municipality": "MIDDLETOWN TOWNSHIP",
+        "district_judicial": 32,
+        "name": "RACHEL EZZELL BERRY",
+        "party": "DEM"
+      },
+      {
+        "County": "DELAWARE",
+        "Municipality": "PROSPECT PARK BOROUGH",
+        "district_judicial": 32,
+        "name": "DAWN GETTY SUTPHIN",
+        "party": "REP"
+      },
+      {
+        "County": "DELAWARE",
+        "Municipality": "CONCORD TWP",
+        "district_judicial": 32,
+        "name": "RICHARD M CAPPELLI",
+        "party": ""
+      },
+      {
+        "County": "DELAWARE",
+        "Municipality": "EDGMONT TWP",
+        "district_judicial": 32,
+        "name": "WILLIAM CHIP MACKRIDES",
+        "party": ""
+      },
+      {
+        "County": "DELAWARE",
+        "Municipality": "CONCORD TWP",
+        "district_judicial": 32,
+        "name": "BARRY C DOZOR",
+        "party": ""
+      }
+    ],
+    "Erie": [
+      {
+        "County": "ERIE",
+        "Municipality": "ERIE",
+        "district_judicial": 6,
+        "name": "PETE SALA",
+        "party": "DEM"
+      },
+      {
+        "County": "ERIE",
+        "Municipality": "ELK CREEK TOWNSHIP",
+        "district_judicial": 6,
+        "name": "ERIC MIKOVCH",
+        "party": "REP"
+      }
+    ],
+    "Fayette": [
+      {
+        "County": "FAYETTE",
+        "Municipality": "FAIRCHANCE BOROUGH",
+        "district_judicial": 14,
+        "name": "MARK M MEHALOV",
+        "party": "D/R"
+      },
+      {
+        "County": "FAYETTE",
+        "Municipality": "DUNBAR TWP",
+        "district_judicial": 14,
+        "name": "LINDA CORDARO",
+        "party": ""
+      },
+      {
+        "County": "FAYETTE",
+        "Municipality": "SOUTH UNION TWP",
+        "district_judicial": 14,
+        "name": "JOSEPH M GEORGE JR",
+        "party": ""
+      }
+    ],
+    "Franklin": [
+      {
+        "County": "FRANKLIN",
+        "Municipality": "GUILFORD TWP",
+        "district_judicial": 39,
+        "name": "JEREMIAH D ZOOK",
+        "party": ""
+      }
+    ],
+    "Huntingdon": [
+      {
+        "County": "HUNTINGDON",
+        "Municipality": "HUNTINGDON BORO",
+        "district_judicial": 20,
+        "name": "GEORGE ZANIC",
+        "party": "D/R"
+      }
+    ],
+    "Lackawanna": [
+      {
+        "County": "LACKAWANNA",
+        "Municipality": "GREENFIELD TOWNSHIP",
+        "district_judicial": 45,
+        "name": "FRANK J RUGGIERO",
+        "party": "D/R"
+      },
+      {
+        "County": "LACKAWANNA",
+        "Municipality": "DALTON BORO",
+        "district_judicial": 45,
+        "name": "JAMES A GIBBONS",
+        "party": ""
+      }
+    ],
+    "Lancaster": [
+      {
+        "County": "LANCASTER",
+        "Municipality": "LANCASTER TOWNSHIP",
+        "district_judicial": 2,
+        "name": "KAREN L MAISANO",
+        "party": "DEM"
+      },
+      {
+        "County": "LANCASTER",
+        "Municipality": "EAST HEMPFIELD TOWNSHIP",
+        "district_judicial": 2,
+        "name": "TODD BROWN",
+        "party": "REP"
+      },
+      {
+        "County": "LANCASTER",
+        "Municipality": "EAST HEMPFIELD TOWNSHIP",
+        "district_judicial": 2,
+        "name": "CHRISTINA PARSONS",
+        "party": "REP"
+      },
+      {
+        "County": "LANCASTER",
+        "Municipality": "CONOY TOWNSHIP",
+        "district_judicial": 2,
+        "name": "SHAWN P MCLAUGHLIN",
+        "party": "REP"
+      },
+      {
+        "County": "LANCASTER",
+        "Municipality": "WEST LAMPETER TWP",
+        "district_judicial": 2,
+        "name": "MERRILL M SPAHN JR",
+        "party": ""
+      }
+    ],
+    "Lebanon": [
+      {
+        "County": "LEBANON",
+        "Municipality": "NORTH CORNWALL TOWNSHIP",
+        "district_judicial": 52,
+        "name": "MEGAN RYLAND TANNER",
+        "party": "DEM"
+      },
+      {
+        "County": "LEBANON",
+        "Municipality": "WEST CORNWALL TOWNSHIP",
+        "district_judicial": 52,
+        "name": "DONNA LONG BRIGHTBILL",
+        "party": "REP"
+      }
+    ],
+    "Lehigh": [
+      {
+        "County": "LEHIGH",
+        "Municipality": "LOWER MACUNGIE TWP",
+        "district_judicial": 31,
+        "name": "BRIAN JOHNSON",
+        "party": ""
+      }
+    ],
+    "Lycoming": [
+      {
+        "County": "LYCOMING",
+        "Municipality": "LOYALSOCK TOWNSHIP",
+        "district_judicial": 29,
+        "name": "ANDREA PULIZZI",
+        "party": "DEM"
+      },
+      {
+        "County": "LYCOMING",
+        "Municipality": "LOYALSOCK TOWNSHIP",
+        "district_judicial": 29,
+        "name": "WILLIAM P CARLUCCI",
+        "party": "D/R"
+      },
+      {
+        "County": "LYCOMING",
+        "Municipality": "GAMBLE TOWNSHIP",
+        "district_judicial": 29,
+        "name": "RYAN C GARDNER",
+        "party": "REP"
+      }
+    ],
+    "Mercer": [
+      {
+        "County": "MERCER",
+        "Municipality": "WEST SALEM",
+        "district_judicial": 35,
+        "name": "DANIEL P WALLACE",
+        "party": ""
+      }
+    ],
+    "Mifflin": [
+      {
+        "County": "MIFFLIN",
+        "Municipality": "DERRY TOWNSHIP",
+        "district_judicial": 58,
+        "name": "JONATHAN REED",
+        "party": "D/R"
+      }
+    ],
+    "Montgomery": [
+      {
+        "County": "MONTGOMERY",
+        "Municipality": "AMBLER",
+        "district_judicial": 38,
+        "name": "DANIEL G RONCA",
+        "party": "DEM"
+      },
+      {
+        "County": "MONTGOMERY",
+        "Municipality": "LOWER MORELAND TOWNSHIP",
+        "district_judicial": 38,
+        "name": "CHARLIE ROSENBAUM",
+        "party": "REP"
+      },
+      {
+        "County": "MONTGOMERY",
+        "Municipality": "SPRINGFIELD",
+        "district_judicial": 38,
+        "name": "WILLIAM RICHARD CARPENTER",
+        "party": ""
+      },
+      {
+        "County": "MONTGOMERY",
+        "Municipality": "LOWER MERION",
+        "district_judicial": 38,
+        "name": "STEVEN T O'NEILL",
+        "party": ""
+      },
+      {
+        "County": "MONTGOMERY",
+        "Municipality": "WORCESTER TWP",
+        "district_judicial": 38,
+        "name": "THOMAS P ROGERS",
+        "party": ""
+      },
+      {
+        "County": "MONTGOMERY",
+        "Municipality": "CHELTENHAM TWP",
+        "district_judicial": 38,
+        "name": "STEVEN C TOLLIVER SR",
+        "party": ""
+      },
+      {
+        "County": "MONTGOMERY",
+        "Municipality": "ABINGTON TWP",
+        "district_judicial": 38,
+        "name": "GAIL A WEILHEIMER",
+        "party": ""
+      }
+    ],
+    "Northampton": [
+      {
+        "County": "NORTHAMPTON",
+        "Municipality": "FORKS TOWNSHIP",
+        "district_judicial": 3,
+        "name": "BRIAN PANELLA",
+        "party": "DEM"
+      },
+      {
+        "County": "NORTHAMPTON",
+        "Municipality": "BETHLEHEM TOWNSHIP",
+        "district_judicial": 3,
+        "name": "NANCY AAROE",
+        "party": "REP"
+      },
+      {
+        "County": "NORTHAMPTON",
+        "Municipality": "BETHLEHEM TWP",
+        "district_judicial": 3,
+        "name": "JENNIFER R SLETVOLD",
+        "party": ""
+      }
+    ],
+    "Northumberland": [
+      {
+        "County": "NORTHUMBERLAND",
+        "Municipality": "ROCKEFELLER",
+        "district_judicial": 8,
+        "name": "MIKE TOOMEY",
+        "party": ""
+      }
+    ],
+    "Philadelphia": [
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "NATASHA TAYLOR-SMITH",
+        "party": "DEM"
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "TAMIKA WASHINGTON",
+        "party": "DEM"
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "SAMANTHA WILLIAMS",
+        "party": "DEM"
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "KAY YU",
+        "party": "DEM"
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "JOHN PADOVA",
+        "party": "DEM"
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "CHESLEY LIGHTSEY",
+        "party": "DEM"
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "BRIAN MCLAUGHLIN",
+        "party": "DEM"
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "DAMARIS GARCIA",
+        "party": "DEM"
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "CAROLINE TURNER",
+        "party": "DEM"
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "JESSICA R BROWN",
+        "party": "DEM"
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "JAMES J EISENHOWER",
+        "party": "DEM"
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "ELVIN ROSS",
+        "party": "DEM"
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "RAJ SANDHER",
+        "party": "DEM"
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "GIOVANNI O CAMPBELL",
+        "party": ""
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "ANNE MARIE B COYLE",
+        "party": ""
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "HOLLY J FORD",
+        "party": ""
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "TIMIKA LANE",
+        "party": ""
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "J SCOTT O'KEEFE",
+        "party": ""
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "PAULA A PATRICK",
+        "party": ""
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "SIERRA THOMAS STREET",
+        "party": ""
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "RAMY I DJERASSI",
+        "party": ""
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "JOE FERNANDES",
+        "party": ""
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "NINA WRIGHT PADILLA",
+        "party": ""
+      },
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "JACQUELINE F ALLEN",
+        "party": ""
+      }
+    ],
+    "Schuylkill": [
+      {
+        "County": "SCHUYLKILL",
+        "Municipality": "NORWEGIAN TOWNSHIP",
+        "district_judicial": 21,
+        "name": "MICHAEL A O'PAKE",
+        "party": "DEM"
+      },
+      {
+        "County": "SCHUYLKILL",
+        "Municipality": "PORT CARBON",
+        "district_judicial": 21,
+        "name": "BILL BURKE",
+        "party": "REP"
+      }
+    ],
+    "Snyder": [
+      {
+        "County": "SNYDER",
+        "Municipality": "PENN TOWNSHIP",
+        "district_judicial": 17,
+        "name": "MIKE PIECUCH",
+        "party": ""
+      }
+    ],
+    "Venango": [
+      {
+        "County": "VENANGO",
+        "Municipality": "SANDYCREEK TOWNSHIP",
+        "district_judicial": 28,
+        "name": "MATTHEW KIRTLAND",
+        "party": "D/R"
+      },
+      {
+        "County": "VENANGO",
+        "Municipality": "CRANBERRY TWP",
+        "district_judicial": 28,
+        "name": "JUSTIN FLEEGER",
+        "party": "D/R"
+      }
+    ],
+    "Washington": [
+      {
+        "County": "WASHINGTON",
+        "Municipality": "CECIL TWP",
+        "district_judicial": 27,
+        "name": "VALARIE COSTANZO",
+        "party": ""
+      },
+      {
+        "County": "WASHINGTON",
+        "Municipality": "CARROLL TWP",
+        "district_judicial": 27,
+        "name": "MICHAEL LUCAS",
+        "party": ""
+      }
+    ],
+    "Westmoreland": [
+      {
+        "County": "WESTMORELAND",
+        "Municipality": "NORTH HUNTINGDON TWP",
+        "district_judicial": 10,
+        "name": "MEAGAN BILIK-DEFAZIO",
+        "party": ""
+      },
+      {
+        "County": "WESTMORELAND",
+        "Municipality": "HEMPFIELD TWP",
+        "district_judicial": 10,
+        "name": "CHRISTOPHER A FELICIANI",
+        "party": ""
+      }
+    ],
+    "York": [
+      {
+        "County": "YORK",
+        "Municipality": "WEST MANCHESTER TOWNSHIP",
+        "district_judicial": 19,
+        "name": "KELLEY L MARGETAS",
+        "party": "REP"
+      },
+      {
+        "County": "YORK",
+        "Municipality": "SPRING GARDEN TWP",
+        "district_judicial": 19,
+        "name": "TODD PLATTS",
+        "party": ""
       }
     ]
   },
   "Judge of the Superior Court": {
-    "": [
+    "Allegheny": [
       {
-        "party": "DEM",
-        "name": "TIMIKA LANE",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "DEM",
-        "name": "JILL BECK",
+        "County": "ALLEGHENY",
         "Municipality": "PITTSBURGH",
-        "County": "ALLEGHENY"
-      },
+        "name": "JILL BECK",
+        "party": "DEM"
+      }
+    ],
+    "Clarion": [
       {
-        "party": "REP",
-        "name": "MARIA BATTISTA",
+        "County": "CLARION",
         "Municipality": "SALEM TWP",
-        "County": "CLARION"
-      },
+        "name": "MARIA BATTISTA",
+        "party": "REP"
+      }
+    ],
+    "Cumberland": [
       {
-        "party": "REP",
-        "name": "HARRY F SMAIL JR",
-        "Municipality": "HEMPFIELD TOWNSHIP",
-        "County": "WESTMORELAND"
-      },
-      {
-        "party": "",
-        "name": "JACK PANELLA",
-        "Municipality": "PALMER TWP",
-        "County": "NORTHAMPTON"
-      },
-      {
-        "party": "",
-        "name": "VICTOR P STABILE",
+        "County": "CUMBERLAND",
         "Municipality": "MIDDLESEX",
-        "County": "CUMBERLAND"
+        "name": "VICTOR P STABILE",
+        "party": ""
+      }
+    ],
+    "Northampton": [
+      {
+        "County": "NORTHAMPTON",
+        "Municipality": "PALMER TWP",
+        "name": "JACK PANELLA",
+        "party": ""
+      }
+    ],
+    "Philadelphia": [
+      {
+        "County": "PHILADELPHIA",
+        "Municipality": "PHILADELPHIA",
+        "name": "TIMIKA LANE",
+        "party": "DEM"
+      }
+    ],
+    "Westmoreland": [
+      {
+        "County": "WESTMORELAND",
+        "Municipality": "HEMPFIELD TOWNSHIP",
+        "name": "HARRY F SMAIL JR",
+        "party": "REP"
       }
     ]
   },
   "Justice of the Supreme Court": {
     "": [
       {
-        "party": "DEM",
-        "name": "DANIEL MCCAFFERY",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "REP",
-        "name": "CAROLYN CARLUCCIO",
+        "County": "MONTGOMERY",
         "Municipality": "WHITPAIN",
-        "County": "MONTGOMERY"
-      }
-    ]
-  },
-  "Judge of the Court Common Pleas": {
-    "1": [
+        "name": "CAROLYN CARLUCCIO",
+        "party": "REP"
+      },
       {
-        "party": "DEM",
-        "name": "NATASHA TAYLOR-SMITH",
+        "County": "PHILADELPHIA",
         "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "DEM",
-        "name": "TAMIKA WASHINGTON",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "DEM",
-        "name": "SAMANTHA WILLIAMS",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "DEM",
-        "name": "KAY YU",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "DEM",
-        "name": "JOHN PADOVA",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "DEM",
-        "name": "CHESLEY LIGHTSEY",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "DEM",
-        "name": "BRIAN MCLAUGHLIN",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "DEM",
-        "name": "DAMARIS GARCIA",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "DEM",
-        "name": "CAROLINE TURNER",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "DEM",
-        "name": "JESSICA R BROWN",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "DEM",
-        "name": "JAMES J EISENHOWER",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "DEM",
-        "name": "ELVIN ROSS",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "DEM",
-        "name": "RAJ SANDHER",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "",
-        "name": "GIOVANNI O CAMPBELL",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "",
-        "name": "ANNE MARIE B COYLE",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "",
-        "name": "HOLLY J FORD",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "",
-        "name": "TIMIKA LANE",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "",
-        "name": "J SCOTT O'KEEFE",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "",
-        "name": "PAULA A PATRICK",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "",
-        "name": "SIERRA THOMAS STREET",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "",
-        "name": "RAMY I DJERASSI",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "",
-        "name": "JOE FERNANDES",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "",
-        "name": "NINA WRIGHT PADILLA",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      },
-      {
-        "party": "",
-        "name": "JACQUELINE F ALLEN",
-        "Municipality": "PHILADELPHIA",
-        "County": "PHILADELPHIA"
-      }
-    ],
-    "2": [
-      {
-        "district_judicial": 2,
-        "party": "DEM",
-        "name": "KAREN L MAISANO",
-        "Municipality": "LANCASTER TOWNSHIP",
-        "County": "LANCASTER"
-      },
-      {
-        "district_judicial": 2,
-        "party": "REP",
-        "name": "TODD BROWN",
-        "Municipality": "EAST HEMPFIELD TOWNSHIP",
-        "County": "LANCASTER"
-      },
-      {
-        "district_judicial": 2,
-        "party": "REP",
-        "name": "CHRISTINA PARSONS",
-        "Municipality": "EAST HEMPFIELD TOWNSHIP",
-        "County": "LANCASTER"
-      },
-      {
-        "district_judicial": 2,
-        "party": "REP",
-        "name": "SHAWN P MCLAUGHLIN",
-        "Municipality": "CONOY TOWNSHIP",
-        "County": "LANCASTER"
-      },
-      {
-        "district_judicial": 2,
-        "party": "",
-        "name": "MERRILL M SPAHN JR",
-        "Municipality": "WEST LAMPETER TWP",
-        "County": "LANCASTER"
-      }
-    ],
-    "3": [
-      {
-        "district_judicial": 3,
-        "party": "DEM",
-        "name": "BRIAN PANELLA",
-        "Municipality": "FORKS TOWNSHIP",
-        "County": "NORTHAMPTON"
-      },
-      {
-        "district_judicial": 3,
-        "party": "REP",
-        "name": "NANCY AAROE",
-        "Municipality": "BETHLEHEM TOWNSHIP",
-        "County": "NORTHAMPTON"
-      },
-      {
-        "district_judicial": 3,
-        "party": "",
-        "name": "JENNIFER R SLETVOLD",
-        "Municipality": "BETHLEHEM TWP",
-        "County": "NORTHAMPTON"
-      }
-    ],
-    "5": [
-      {
-        "district_judicial": 5,
-        "party": "DEM",
-        "name": "PATRICK A SWEENEY",
-        "Municipality": "PITTSBURGH",
-        "County": "ALLEGHENY"
-      },
-      {
-        "district_judicial": 5,
-        "party": "REP",
-        "name": "ANTHONY DELUCA",
-        "Municipality": "MT LEBANON",
-        "County": "ALLEGHENY"
-      },
-      {
-        "district_judicial": 5,
-        "party": "",
-        "name": "ELEANOR L BUSH",
-        "Municipality": "PITTSBURGH",
-        "County": "ALLEGHENY"
-      },
-      {
-        "district_judicial": 5,
-        "party": "",
-        "name": "PAUL E COZZA",
-        "Municipality": "BALDWIN TWP",
-        "County": "ALLEGHENY"
-      },
-      {
-        "district_judicial": 5,
-        "party": "",
-        "name": "LAWRENCE JOSEPH O'TOOLE",
-        "Municipality": "PITTSBURGH",
-        "County": "ALLEGHENY"
-      },
-      {
-        "district_judicial": 5,
-        "party": "",
-        "name": "JILL E RANGOS",
-        "Municipality": "INDIANA TWP",
-        "County": "ALLEGHENY"
-      },
-      {
-        "district_judicial": 5,
-        "party": "",
-        "name": "JENNIFER SATLER",
-        "Municipality": "ROSSLYN FARMS BORO",
-        "County": "ALLEGHENY"
-      },
-      {
-        "district_judicial": 5,
-        "party": "",
-        "name": "CHRISTINE WARD",
-        "Municipality": "PGH 7TH WARD",
-        "County": "ALLEGHENY"
-      }
-    ],
-    "6": [
-      {
-        "district_judicial": 6,
-        "party": "DEM",
-        "name": "PETE SALA",
-        "Municipality": "ERIE",
-        "County": "ERIE"
-      },
-      {
-        "district_judicial": 6,
-        "party": "REP",
-        "name": "ERIC MIKOVCH",
-        "Municipality": "ELK CREEK TOWNSHIP",
-        "County": "ERIE"
-      }
-    ],
-    "7": [
-      {
-        "district_judicial": 7,
-        "party": "D/R",
-        "name": "MATT WEINTRAUB",
-        "Municipality": "",
-        "County": "BUCKS"
-      },
-      {
-        "district_judicial": 7,
-        "party": "",
-        "name": "C THEODORE FRITSCH JR",
-        "Municipality": "DOYLESTOWN BORO",
-        "County": "BUCKS"
-      }
-    ],
-    "8": [
-      {
-        "district_judicial": 8,
-        "party": "",
-        "name": "MIKE TOOMEY",
-        "Municipality": "ROCKEFELLER",
-        "County": "NORTHUMBERLAND"
-      }
-    ],
-    "10": [
-      {
-        "district_judicial": 10,
-        "party": "",
-        "name": "MEAGAN BILIK-DEFAZIO",
-        "Municipality": "NORTH HUNTINGDON TWP",
-        "County": "WESTMORELAND"
-      },
-      {
-        "district_judicial": 10,
-        "party": "",
-        "name": "CHRISTOPHER A FELICIANI",
-        "Municipality": "HEMPFIELD TWP",
-        "County": "WESTMORELAND"
-      }
-    ],
-    "12": [
-      {
-        "district_judicial": 12,
-        "party": "DEM",
-        "name": "LA TASHA C WILLIAMS",
-        "Municipality": "SUSQUEHANNA TOWNSHIP",
-        "County": "DAUPHIN"
-      },
-      {
-        "district_judicial": 12,
-        "party": "REP",
-        "name": "COURTNEY K POWELL",
-        "Municipality": "LOWER PAXTON TOWNSHIP",
-        "County": "DAUPHIN"
-      },
-      {
-        "district_judicial": 12,
-        "party": "",
-        "name": "SCOTT ARTHUR EVANS",
-        "Municipality": "WEST HANOVER",
-        "County": "DAUPHIN"
-      },
-      {
-        "district_judicial": 12,
-        "party": "",
-        "name": "WILLIAM T TULLY",
-        "Municipality": "LOWER PAXTON TWP",
-        "County": "DAUPHIN"
-      }
-    ],
-    "14": [
-      {
-        "district_judicial": 14,
-        "party": "D/R",
-        "name": "MARK M MEHALOV",
-        "Municipality": "FAIRCHANCE BOROUGH",
-        "County": "FAYETTE"
-      },
-      {
-        "district_judicial": 14,
-        "party": "",
-        "name": "LINDA CORDARO",
-        "Municipality": "DUNBAR TWP",
-        "County": "FAYETTE"
-      },
-      {
-        "district_judicial": 14,
-        "party": "",
-        "name": "JOSEPH M GEORGE JR",
-        "Municipality": "SOUTH UNION TWP",
-        "County": "FAYETTE"
-      }
-    ],
-    "15": [
-      {
-        "district_judicial": 15,
-        "party": "DEM",
-        "name": "SARAH B  BLACK",
-        "Municipality": "WEST CHESTER BOROUGH",
-        "County": "CHESTER"
-      },
-      {
-        "district_judicial": 15,
-        "party": "DEM",
-        "name": "DEB RYAN",
-        "Municipality": "BIRMINGHAM TOWNSHIP",
-        "County": "CHESTER"
-      },
-      {
-        "district_judicial": 15,
-        "party": "DEM",
-        "name": "FREDDA D MADDOX",
-        "Municipality": "EAST GOSHEN",
-        "County": "CHESTER"
-      },
-      {
-        "district_judicial": 15,
-        "party": "DEM",
-        "name": "NICOLE FORZATO",
-        "Municipality": "EASTTOWN TOWNSHIP",
-        "County": "CHESTER"
-      },
-      {
-        "district_judicial": 15,
-        "party": "DEM",
-        "name": "THOMAS MCCABE",
-        "Municipality": "NEWLIN TOWNSHIP",
-        "County": "CHESTER"
-      },
-      {
-        "district_judicial": 15,
-        "party": "REP",
-        "name": "LOU MINCARELLI",
-        "Municipality": "EAST BRANDYWINE TOWNSHIP",
-        "County": "CHESTER"
-      },
-      {
-        "district_judicial": 15,
-        "party": "REP",
-        "name": "PJ REDMOND",
-        "Municipality": "WEST GOSHEN",
-        "County": "CHESTER"
-      },
-      {
-        "district_judicial": 15,
-        "party": "REP",
-        "name": "ANDY RONGAUS",
-        "Municipality": "WEST GOSHEN TOWNSHIP",
-        "County": "CHESTER"
-      },
-      {
-        "district_judicial": 15,
-        "party": "REP",
-        "name": "DON KOHLER",
-        "Municipality": "NEW GARDEN TOWNSHIP",
-        "County": "CHESTER"
-      },
-      {
-        "district_judicial": 15,
-        "party": "REP",
-        "name": "DAVE BLACK",
-        "Municipality": "THORNBURY TOWNSHIP",
-        "County": "CHESTER"
-      },
-      {
-        "district_judicial": 15,
-        "party": "",
-        "name": "PATRICK CARMODY",
-        "Municipality": "WESTTOWN",
-        "County": "CHESTER"
-      },
-      {
-        "district_judicial": 15,
-        "party": "",
-        "name": "JOHN L HALL",
-        "Municipality": "EAST BRADFORD TWP",
-        "County": "CHESTER"
-      }
-    ],
-    "17": [
-      {
-        "district_judicial": 17,
-        "party": "",
-        "name": "MIKE PIECUCH",
-        "Municipality": "PENN TOWNSHIP",
-        "County": "SNYDER"
-      }
-    ],
-    "19": [
-      {
-        "district_judicial": 19,
-        "party": "REP",
-        "name": "KELLEY L MARGETAS",
-        "Municipality": "WEST MANCHESTER TOWNSHIP",
-        "County": "YORK"
-      },
-      {
-        "district_judicial": 19,
-        "party": "",
-        "name": "TODD PLATTS",
-        "Municipality": "SPRING GARDEN TWP",
-        "County": "YORK"
-      }
-    ],
-    "20": [
-      {
-        "district_judicial": 20,
-        "party": "D/R",
-        "name": "GEORGE ZANIC",
-        "Municipality": "HUNTINGDON BORO",
-        "County": "HUNTINGDON"
-      },
-      {
-        "district_judicial": 21,
-        "party": "DEM",
-        "name": "MICHAEL A O'PAKE",
-        "Municipality": "NORWEGIAN TOWNSHIP",
-        "County": "SCHUYLKILL"
-      },
-      {
-        "district_judicial": 21,
-        "party": "REP",
-        "name": "BILL BURKE",
-        "Municipality": "PORT CARBON",
-        "County": "SCHUYLKILL"
-      }
-    ],
-    "23": [
-      {
-        "district_judicial": 23,
-        "party": "D/R",
-        "name": "JILL SCHEIDT",
-        "Municipality": "WYOMISSING",
-        "County": "BERKS"
-      },
-      {
-        "district_judicial": 23,
-        "party": "D/R",
-        "name": "JUSTIN D BODOR",
-        "Municipality": "OLEY TOWNSHIP",
-        "County": "BERKS"
-      },
-      {
-        "district_judicial": 23,
-        "party": "",
-        "name": "THERESA JOHNSON",
-        "Municipality": "BRECKNOCK TWP",
-        "County": "BERKS"
-      },
-      {
-        "district_judicial": 23,
-        "party": "",
-        "name": "MADELYN S FUDEMAN",
-        "Municipality": "CUMRU TWP",
-        "County": "BERKS"
-      }
-    ],
-    "24": [
-      {
-        "district_judicial": 24,
-        "party": "D/R",
-        "name": "DAVID CONSIGLIO",
-        "Municipality": "FRANKSTOWN TOWNSHIP",
-        "County": "BLAIR"
-      },
-      {
-        "district_judicial": 24,
-        "party": "D/R",
-        "name": "FRED B MILLER",
-        "Municipality": "TYRONE TOWNSHIP",
-        "County": "BLAIR"
-      },
-      {
-        "district_judicial": 24,
-        "party": "",
-        "name": "WADE A KAGARISE",
-        "Municipality": "BORO OF HOLLIDAYSBURG",
-        "County": "BLAIR"
-      },
-      {
-        "district_judicial": 24,
-        "party": "",
-        "name": "ELIZABETH A DOYLE",
-        "Municipality": "FRANKSTOWN TWP",
-        "County": "BLAIR"
-      }
-    ],
-    "25": [
-      {
-        "district_judicial": 25,
-        "party": "",
-        "name": "MICHAEL F SALISBURY",
-        "Municipality": "PIKE CREEK TWP 2",
-        "County": "CLINTON"
-      }
-    ],
-    "26": [
-      {
-        "district_judicial": 26,
-        "party": "D/R",
-        "name": "RICHARD W KNECHT",
-        "Municipality": "BRIAR CREEK TOWNSHIP",
-        "County": "COLUMBIA"
-      }
-    ],
-    "27": [
-      {
-        "district_judicial": 27,
-        "party": "",
-        "name": "VALARIE COSTANZO",
-        "Municipality": "CECIL TWP",
-        "County": "WASHINGTON"
-      },
-      {
-        "district_judicial": 27,
-        "party": "",
-        "name": "MICHAEL LUCAS",
-        "Municipality": "CARROLL TWP",
-        "County": "WASHINGTON"
-      }
-    ],
-    "28": [
-      {
-        "district_judicial": 28,
-        "party": "D/R",
-        "name": "MATTHEW KIRTLAND",
-        "Municipality": "SANDYCREEK TOWNSHIP",
-        "County": "VENANGO"
-      },
-      {
-        "district_judicial": 28,
-        "party": "D/R",
-        "name": "JUSTIN FLEEGER",
-        "Municipality": "CRANBERRY TWP",
-        "County": "VENANGO"
-      }
-    ],
-    "29": [
-      {
-        "district_judicial": 29,
-        "party": "DEM",
-        "name": "ANDREA PULIZZI",
-        "Municipality": "LOYALSOCK TOWNSHIP",
-        "County": "LYCOMING"
-      },
-      {
-        "district_judicial": 29,
-        "party": "D/R",
-        "name": "WILLIAM P CARLUCCI",
-        "Municipality": "LOYALSOCK TOWNSHIP",
-        "County": "LYCOMING"
-      },
-      {
-        "district_judicial": 29,
-        "party": "REP",
-        "name": "RYAN C GARDNER",
-        "Municipality": "GAMBLE TOWNSHIP",
-        "County": "LYCOMING"
-      }
-    ],
-    "31": [
-      {
-        "district_judicial": 31,
-        "party": "",
-        "name": "BRIAN JOHNSON",
-        "Municipality": "LOWER MACUNGIE TWP",
-        "County": "LEHIGH"
-      }
-    ],
-    "32": [
-      {
-        "district_judicial": 32,
-        "party": "DEM",
-        "name": "RACHEL EZZELL BERRY",
-        "Municipality": "MIDDLETOWN TOWNSHIP",
-        "County": "DELAWARE"
-      },
-      {
-        "district_judicial": 32,
-        "party": "REP",
-        "name": "DAWN GETTY SUTPHIN",
-        "Municipality": "PROSPECT PARK BOROUGH",
-        "County": "DELAWARE"
-      },
-      {
-        "district_judicial": 32,
-        "party": "",
-        "name": "RICHARD M CAPPELLI",
-        "Municipality": "CONCORD TWP",
-        "County": "DELAWARE"
-      },
-      {
-        "district_judicial": 32,
-        "party": "",
-        "name": "WILLIAM CHIP MACKRIDES",
-        "Municipality": "EDGMONT TWP",
-        "County": "DELAWARE"
-      },
-      {
-        "district_judicial": 32,
-        "party": "",
-        "name": "BARRY C DOZOR",
-        "Municipality": "CONCORD TWP",
-        "County": "DELAWARE"
-      }
-    ],
-    "35": [
-      {
-        "district_judicial": 35,
-        "party": "",
-        "name": "DANIEL P WALLACE",
-        "Municipality": "WEST SALEM",
-        "County": "MERCER"
-      }
-    ],
-    "36": [
-      {
-        "district_judicial": 36,
-        "party": "",
-        "name": "RICHARD MANCINI",
-        "Municipality": "PATTERSON TWP",
-        "County": "BEAVER"
-      },
-      {
-        "district_judicial": 36,
-        "party": "",
-        "name": "JAMES J ROSS",
-        "Municipality": "ECONOMY BORO",
-        "County": "BEAVER"
-      }
-    ],
-    "38": [
-      {
-        "district_judicial": 38,
-        "party": "DEM",
-        "name": "DANIEL G RONCA",
-        "Municipality": "AMBLER",
-        "County": "MONTGOMERY"
-      },
-      {
-        "district_judicial": 38,
-        "party": "REP",
-        "name": "CHARLIE ROSENBAUM",
-        "Municipality": "LOWER MORELAND TOWNSHIP",
-        "County": "MONTGOMERY"
-      },
-      {
-        "district_judicial": 38,
-        "party": "",
-        "name": "WILLIAM RICHARD CARPENTER",
-        "Municipality": "SPRINGFIELD",
-        "County": "MONTGOMERY"
-      },
-      {
-        "district_judicial": 38,
-        "party": "",
-        "name": "STEVEN T O'NEILL",
-        "Municipality": "LOWER MERION",
-        "County": "MONTGOMERY"
-      },
-      {
-        "district_judicial": 38,
-        "party": "",
-        "name": "THOMAS P ROGERS",
-        "Municipality": "WORCESTER TWP",
-        "County": "MONTGOMERY"
-      },
-      {
-        "district_judicial": 38,
-        "party": "",
-        "name": "STEVEN C TOLLIVER SR",
-        "Municipality": "CHELTENHAM TWP",
-        "County": "MONTGOMERY"
-      },
-      {
-        "district_judicial": 38,
-        "party": "",
-        "name": "GAIL A WEILHEIMER",
-        "Municipality": "ABINGTON TWP",
-        "County": "MONTGOMERY"
-      }
-    ],
-    "39": [
-      {
-        "district_judicial": 39,
-        "party": "",
-        "name": "JEREMIAH D ZOOK",
-        "Municipality": "GUILFORD TWP",
-        "County": "FRANKLIN"
-      }
-    ],
-    "45": [
-      {
-        "district_judicial": 45,
-        "party": "D/R",
-        "name": "FRANK J RUGGIERO",
-        "Municipality": "GREENFIELD TOWNSHIP",
-        "County": "LACKAWANNA"
-      },
-      {
-        "district_judicial": 45,
-        "party": "",
-        "name": "JAMES A GIBBONS",
-        "Municipality": "DALTON BORO",
-        "County": "LACKAWANNA"
-      }
-    ],
-    "46": [
-      {
-        "district_judicial": 46,
-        "party": "",
-        "name": "PAUL E CHERRY",
-        "Municipality": "DUBOIS",
-        "County": "CLEARFIELD"
-      }
-    ],
-    "47": [
-      {
-        "district_judicial": 47,
-        "party": "DEM",
-        "name": "TIM SLOAN",
-        "Municipality": "CAMBRIA TOWNSHIP",
-        "County": "CAMBRIA"
-      },
-      {
-        "district_judicial": 47,
-        "party": "D/R",
-        "name": "MICHAEL CARBONARA",
-        "Municipality": "RICHLAND TOWNSHIP",
-        "County": "CAMBRIA"
-      },
-      {
-        "district_judicial": 47,
-        "party": "REP",
-        "name": "FORREST B FORDHAM",
-        "Municipality": "RICHLAND TOWNSHIP",
-        "County": "CAMBRIA"
-      }
-    ],
-    "49": [
-      {
-        "district_judicial": 49,
-        "party": "D/R",
-        "name": "JULIA RATER",
-        "Municipality": "PATTON TOWNSHIP",
-        "County": "CENTRE"
-      }
-    ],
-    "50": [
-      {
-        "district_judicial": 50,
-        "party": "D/R",
-        "name": "MAURA PALUMBI",
-        "Municipality": "ADAMS TOWNSHIP",
-        "County": "BUTLER"
-      }
-    ],
-    "52": [
-      {
-        "district_judicial": 52,
-        "party": "DEM",
-        "name": "MEGAN RYLAND TANNER",
-        "Municipality": "NORTH CORNWALL TOWNSHIP",
-        "County": "LEBANON"
-      },
-      {
-        "district_judicial": 52,
-        "party": "REP",
-        "name": "DONNA LONG BRIGHTBILL",
-        "Municipality": "WEST CORNWALL TOWNSHIP",
-        "County": "LEBANON"
-      }
-    ],
-    "58": [
-      {
-        "district_judicial": 58,
-        "party": "D/R",
-        "name": "JONATHAN REED",
-        "Municipality": "DERRY TOWNSHIP",
-        "County": "MIFFLIN"
+        "name": "DANIEL MCCAFFERY",
+        "party": "DEM"
       }
     ]
   }
